@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+body {
+  width: 100%;
+  background-color: #01A850;
+}
+
+.img-responsive{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.hat{
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -1em;
+  margin-top: 2em;
+}
+.title{
+  text-align: center;
+  color:#F0F0F0;
+  margin-top: 1em;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+hr {
+  width: 75%;
+}
+article {
+  position: relative;
+  margin: 50px auto;
+  padding: 50px;
+  width: 100%;
+  font: 14px/22px 'PT Serif',Georgia,serif;
+  color: #222;
+  text-align: justify;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+article h1 {
+  margin: 10px 0;
+  font-family: 'Roboto Slab', serif;
+  color: #333;
+}
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+}
+.quote{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+article::before,
+article::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  box-shadow: inherit;
+  transform: rotate(2deg);
+}
+
+article::after { transform: rotate(-1deg)
+}
+footer{
+  width:100%;
+
+}
+
+footer p {
+  text-align:center;
+  color:white;
+}
+.pipey{
+  width:120px;
+  margin-right:auto;
+  margin-left:auto;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 500px){
+  article {
+  position: relative;
+  margin: 50px auto;
+  padding: 10%;
+  width: 70%;
+  font: 14px/22px 'PT Serif',Georgia,serif;
+  color: #222;
+  text-align: justify;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+
+article h1 {
+  margin: 10px 0;
+  font-family: 'Roboto Slab', serif;
+  color: #333;
+}
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 15px;
+
+}
+article::before,
+article::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  box-shadow: inherit;
+  transform: rotate(2deg);
+}
+
+article::after 
+{ transform: rotate(-1deg) }
+}
+@media only screen and (max-width: 500px) {
+  img {
+    width: 70%;
+  }
+ 
+}
