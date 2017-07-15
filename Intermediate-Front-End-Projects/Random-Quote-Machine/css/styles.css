@@ -14,3 +14,8 @@ h1
 {
     margin-right: 5em;
 }
+
+#movie
+{
+    display: inline-block;
+}
