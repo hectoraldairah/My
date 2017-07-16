@@ -30,3 +30,9 @@ h1
 {
     font-weight: bold;
 }
+
+#video
+{
+    width: 50%;
+    height: 600px;
+}
