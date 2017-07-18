@@ -1,1 +1,11 @@
-css
+body
+{
+    background-color: #2A363B;
+}
+
+h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.5em;
+    color: #fafafa;
+}
