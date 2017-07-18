@@ -5,24 +5,21 @@ $(document).ready(function(){
         lon: ''
     };
 
-    getLocation();
+    var key = '409d2ec2e2ba317c8037fc0eba1d97bd';
 
-    function getLocation()
-    {
         if(navigator.geolocation)
             {
                 navigator.geolocation.getCurrentPosition(function(position){
                     userPosition.lat = position.coords.latitude;
                     userPosition.lon = position.coords.longitude;
-                    console.log(userPosition.lat);
+                    console.log(userPosition.lat); //This shows me the latitude
                 });
             }
             else
             {
                 alert("Geolocation not supported by your browser");
             }
-    }
+    
+    console.log(userPosition.lat);      // This not works
 
-    console.log(userPosition.lat);
-  
 });
