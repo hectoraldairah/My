@@ -33,8 +33,16 @@ $(document).ready(function(){
         $.ajax({
             dataType: "jsonp",
             url : urlAPI ,}).done(function(data){
-              $('#temperature').html(Math.round(data.currently.temperature));
-              
+            $('#temperature').html(Math.round(data.currently.temperature));
+            
+             $('#celcious').click(function(){
+                 $('#temperature').html(Math.round((data.currently.temperature * 5) / 9));
+             });
+
+              $('#farenheit').click(function(){
+                 $('#temperature').html(Math.round(data.currently.temperature));
+             });
+
             });
         
     }
