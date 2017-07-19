@@ -1,11 +1,23 @@
 body
 {
-    background-color: #2A363B;
+    background-color: #f2f2f2;
 }
 
 h1
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 0.5em;
-    color: #fafafa;
+    color: #212121;
 }
+.container
+{
+    padding: 2em;
+}
+
+
+
+p
+{
+    font-size: 7em;
+}
+

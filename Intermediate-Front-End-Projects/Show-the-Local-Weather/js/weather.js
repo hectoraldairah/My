@@ -33,7 +33,8 @@ $(document).ready(function(){
         $.ajax({
             dataType: "jsonp",
             url : urlAPI ,}).done(function(data){
-                alert(data.currently.te);
+              $('#temperature').html(Math.round(data.currently.temperature));
+              
             });
         
     }
