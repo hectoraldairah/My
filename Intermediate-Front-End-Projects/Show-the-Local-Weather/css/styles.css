@@ -9,15 +9,41 @@ h1
     font-size: 0.5em;
     color: #212121;
 }
+
+#timezone
+{
+    font-size: 1em;
+}
 .container
 {
     padding: 2em;
 }
-
-
 
 p
 {
     font-size: 7em;
 }
 
+#icon-summary
+{
+    font-size: 7em;
+}
+#summary
+{
+    font-size: 2em;
+}
+
+
+ #humedad
+{
+    font-size: 1em;
+}
+
+#humidity
+{
+    font-size: 1em;
+}
+
+.clicked {
+  color: blue;
+}
