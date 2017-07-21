@@ -33,17 +33,27 @@ p
     font-size: 2em;
 }
 
-
- #humedad
+.action
 {
+    color: #fafafa;
     font-size: 1em;
 }
-
-#humidity
+span
 {
-    font-size: 1em;
+    font-size: 2em;
+}
+#time{
+    margin-top: .5em;
+    font-size: 4.2em;
+}
+
+#timezone
+{
+    margin-top: 5em;
+    font-size: 1.5em;
 }
 
 .clicked {
-  color: blue;
+  color: red;
 }
+
