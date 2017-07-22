@@ -27,3 +27,13 @@ h1
     font-size: 2em;
     
 }
+
+#button1
+{
+    margin-right: 2em;
+}
+
+#button2
+{
+    margin-left: 2em;
+}
