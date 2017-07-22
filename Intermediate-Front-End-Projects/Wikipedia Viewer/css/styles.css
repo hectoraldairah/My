@@ -1,3 +1,29 @@
 body 
 {
+    background-color: #E7E7E7;
+}
+
+h1
+{
+    color: #212121;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#search-text
+{
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-top: 3em;
+}
+
+#something
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+#sample6{
+    font-size: 2em;
+    
 }
